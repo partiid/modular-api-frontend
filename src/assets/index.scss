@@ -1,3 +1,8 @@
+
+body, html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* container global */ 
+
+.centered-container { 
+  width: 100%;
+  max-width: 1280px; 
+  margin: 0 auto; 
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  
+  align-items: center;
+  height: 100vh;
 }
